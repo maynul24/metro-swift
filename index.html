@@ -17,9 +17,113 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./Styles/style.css">
 </head>
-<body>
-    <header></header>
-    <main></main>
+<body class="container lg mx-auto">
+    <header>
+        <nav class="mb-8">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <li class="pr-14"><a>Home</a></li>
+                      <li class="pr-14"><a>About</a></li>
+                      <li class="pr-14"><a>Destinition</a></li>
+                      <li class=""><a>Search</a></li>
+                    </ul>
+                  </div>
+                  <a class="btn btn-gho font-raleway text-xl text-[#030712] font-bold">Metro Swift</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal text-[#030712B3] font-raleway px-1">
+                    <li class="pr-14"><a>Home</a></li>
+                    <li class="pr-14"><a>About</a></li>
+                    <li class="pr-14"><a>Destinition</a></li>
+                    <li class=""><a>Search</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                  <a class="btn bg-[#1DD1001A] text-[#1DD100] rounded-xl border-2 border-solid border-[#1DD100]]">Bus <span><img src="./images/bus-icon.png"></span></a>
+                </div>
+              </div>
+        </nav>
+        <div class="">
+            <div class="hero h-[550px] rounded-3xl" style="background-image: url(./images/banner.png);">
+                <div class="hero-overlay bg-opacity-60 rounded-3xl"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="max-w-md">
+                    <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+                    <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                    <button class="btn btn-primary">Get Started</button>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </header>
+    <main>
+        <div>
+            <!-- Bus Description Section -->
+            <section class="py-8">
+                <h2 class="font-raleway font-bold text-[40px] text-center">Metro Swift Paribahan</h2>
+                <p class="text-center pb-16">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
+                <div class="grid grid-cols-3 justify-center items-center">
+                    <div class="col-span-2">
+                        <div class="flex justify-between">
+                            <div class="flex justify-between ">
+                                <div class="pr-[460px]">
+                                    <h2>Greenline Paribahan</h2>
+                                    <p>Coach-009-WEB ! AC_Business</p>
+                                </div>
+                                <div>
+                                    <p class="text-white bg-green-300">40 Seats left</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div>
+                                <table class="table items-center">
+                                    <!-- row 1 -->
+                                    <tr>
+                                    <td>Route</td>
+                                    <td>Dhaka-Sylhet</td>
+                                    </tr>
+                                    <!-- row 2 -->
+                                    <tr>
+                                    <td>Departure</td>
+                                    <td>9.00 PM</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="stats flex justify-between">
+                                <div class="stat place-items-center">
+                                <div class="stat-title">Boarding Point - Laxmipur</div>
+                                </div>
+
+                                <div class="stat place-items-center">
+                                <div class="stat-title">Dropping Point - Bogura</div>
+                                </div>
+                                
+                                <div class="stat place-items-center">
+                                <div class="stat-title">Est. Time - 11 Hour</div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row-span-2">
+                        <div>
+                            <h2>500tak</h2>
+                            <p>pre seta</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+
+            </section>
+        </div>
+    </main>
     <footer></footer>
 </body>
 </html>
