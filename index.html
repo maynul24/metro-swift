@@ -109,6 +109,7 @@
               <p class="font-semibold text-xl">On Your Next Purchase</p>
               <p class="text-[#03071280] text-[18px]">Used by February 2024</p>
             </div>
+            <img class="p-0 m-0 h-full" src="./images/cupon-devider.png">
             <div>
               <h2 class="font-bold text-[32px]">NeW15</h2>
               <p class="font-medium text-[#03071280] text-[20px]">Coupon Code</p>
@@ -201,12 +202,12 @@
       </section>
 
       <!-- Bus Seat Section -->
-            <section>
+            <section class="mb-[120px]">
               <div class="containers">
                     <div class="flex justify-between">
-                          <div class="flex-1 border-r-2 border-dashed border-green-500">
+                          <div class="flex-auto px-8 border-r-2 border-dashed border-green-500">
                               <h2 class="font-raleway font-semibold text-2xl my-8">Select Your Seat</h2>
-                              <div class="flex justify-between align-center border-dashed border-y-2 py-[24px]">
+                              <div class="flex justify-between align-center border-dashed border-y-2 border-[#03071233] py-[24px]">
                                 <div class="flex gap-2 items-center">
                                   <img src="./images/seat-gray.png">
                                   <p class="text-[18px] text-[#65676e]">Available</p>
@@ -353,8 +354,65 @@
                             </div>
                             
                           </div>
-                          <div class="flex-1">
-                            <h2></h2>
+                          <div class="flex-auto px-8 ">
+                                <h2 class="font-raleway font-semibold text-2xl mt-8 border-[#03071233]">Confirm your Seat</h2>
+                                <div class="border-b-2 border-dashed my-6 border-[#03071233]"></div>
+                                <div>
+                                  <div class="flex justify-between items-center font-inter font-bold text-base text-[#030712]">
+                                    <p>Seat <span class="bg-green-400">2</span></p>
+                                    <p>Class</p>
+                                    <p>Price</p>
+                                  </div>
+                                  <div class="border-b-2 border-dashed my-4 border-[#03071233]"></div>
+                                  <div class="font-inter font-normal text-base text-[#03071299]">
+                                    <div class="flex justify-between items-center mb-4">
+                                      <p>C2</p>
+                                      <p>Economy</p>
+                                      <p>500</p>
+                                    </div>
+                                    <div class="flex justify-between items-center">
+                                      <p>B2</span></p>
+                                      <p>Economy</p>
+                                      <p>550</p>
+                                    </div>
+                                  </div>
+                                  <div class="border-b-2 border-solid my-4 border-[#03071233]"></div>
+                                  <div class="flex justify-between items-center font-inter font-bold text-[#030712]">
+                                    <p>Total Price</p>
+                                    <p>BDT <span>1100</span></p>
+                                  </div>
+                                  <div class="flex items-center justify-center border-2 rounded-2xl py-2 px-2 mt-4 mb-6">
+                                    <input type="text" placeholder="Do you have a coupon code" class="w-full font-normal ml-5 focus:outline-none"/>
+                                    <button type="submit" class="py-3 px-5 bg-green-500 text-white rounded-xl">Apply</button>
+                                  </div>
+                                  
+                                  
+                                  <div class="flex justify-between items-center font-inter font-bold text-[#030712] ">
+                                    <p>Grand Total</p>
+                                    <p>BDT <span>1100</span></p>
+                                  </div>
+                                </div>
+                                <form class="mt-6 font-inter font-semibold text-xl">
+                                  <label class="form-control w-full">
+                                    <div class="label">
+                                      <span class="label-text">Passenger Name*</span>
+                                    </div>
+                                    <input type="text" placeholder="Type here" class="input input-bordered w-full font-normal" required/>
+                                    <div class="label mt-6">
+                                      <span class="label-text">Phone Number*</span>
+                                    </div>
+                                    <input type="number" maxlength="11" placeholder="Type here" class="input input-bordered w-full font-normal mb-6" required/>
+                                    <div class="label">
+                                      <span class="label-text">Email ID*</span>
+                                    </div>
+                                    <input type="email" placeholder="Type here" class="input input-bordered w-full font-normal" required/>
+                                    <button type="submit" class="my-6 bg-green-600 text-white text-center py-5 rounded-3xl">Next</button>
+                                  </label>
+                                </form>
+                                <div class="flex items-center justify-around underline gap-6">
+                                  <a href="#"><P>Terms and Condition</P></a>
+                                  <a href="#"><p>Cancellation Policies</p></a>
+                                </div>
                           </div>
                     </div>
               </div>
