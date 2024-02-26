@@ -5,3 +5,7 @@
 .font-inter{
   font-family: "Inter", sans-serif;
 }
+.containers{
+  margin: 0 auto;
+  max-width: 1170px;
+}
